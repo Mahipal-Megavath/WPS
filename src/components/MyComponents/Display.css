@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pick{
+    height: 200px;
+    width: 100%;
+    
+}
+.text{
+    text-align: center;
+}
+.dis{
+    background-color: #cfe2e2;
+    width: 27%;
+   
+}
+.dis:hover{
+    transition: 0.7s ease-in-out;
+    transform: scale(1.04);
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:green;
+}
+span{
+    font-weight: bold;
+    
+}

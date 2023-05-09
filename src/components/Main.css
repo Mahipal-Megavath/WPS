@@ -1,0 +1,14 @@
+.d-block{
+    width: 900px;
+    height: 550px;
+    align-items: center;
+    left: 40px;
+    right: 40px;
+    background-color: white;
+}
+.carousel-control-prev{
+    background-color: white;
+}
+.link1{
+    background-color: white;
+}
