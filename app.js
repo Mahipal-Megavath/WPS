@@ -33,6 +33,10 @@ app.use('/api/messages',messagesRoutes)
 
 // })
 
+app.get('/',(req,res)=>{
+    res.send("Working!!");
+})
+
 app.post("/vikas",(req,res)=>{
     console.log("called vikas")
     console.log(req.body)
