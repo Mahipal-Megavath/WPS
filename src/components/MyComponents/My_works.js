@@ -5,7 +5,7 @@ import { useState ,useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 const My_works =()=>{
 
-   email = JSON.parse(localStorage.getItem("chat-app-user")).email;
+   let email = JSON.parse(localStorage.getItem("chat-app-user")).email;
    const [data, setdata] = useState([]);
    const navigate = useNavigate();
    console.log("email" , email);
