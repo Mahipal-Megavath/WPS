@@ -9,7 +9,7 @@ const My_works =({email})=>{
    console.log("email" , email);
    useEffect(() =>{
     const  fetch = async() => {
-      await axios.get('http://localhost:5000/works').then(res => {
+      await axios.get('http://13.53.114.16:5000/works').then(res => {
         console.log(res.data)
         setdata(res.data)
       })
@@ -19,7 +19,7 @@ const My_works =({email})=>{
 
   const deleteWork = async (works) =>{
     console.log("function is calling")
-    await axios.post('http://localhost:5000/delete',works).then(res => {
+    await axios.post('http://13.53.114.16:5000/delete',works).then(res => {
       console.log(res.data)
     })
     alert("Delete Success")

@@ -21,7 +21,7 @@ const  Login = ({isLoggedIn,setIsLoggedIn,setEmail}) => {
             email:data.get("email"),
             password:data.get("password")
         }
-        const loginStatus=await Axios.post('http://localhost:5000/login',details);
+        const loginStatus=await Axios.post('http://13.53.114.16:5000/login',details);
         // console.log(loginStatus)
         if(loginStatus.data.status=="success"){
             console.log(loginStatus.data.result);

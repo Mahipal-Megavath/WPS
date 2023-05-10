@@ -1,3 +1,3 @@
 import socketClient from 'socket.io-client';
 
-export const socket = socketClient("http://localhost:5000");
+export const socket = socketClient("http://13.53.114.16:5000");

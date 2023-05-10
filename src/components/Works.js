@@ -13,7 +13,7 @@ const Works = () => {
   
   useEffect(() =>{
     const  fetch = async() => {
-      await axios.get('http://localhost:5000/works').then(res => {
+      await axios.get('http://13.53.114.16:5000/works').then(res => {
         console.log(res.data)
         setdata(res.data)
       })

@@ -23,7 +23,7 @@ const Upload = () => {
 
     const submitHandler = e=>{
         e.preventDefault();
-        Axios.post('http://localhost:5000/works',data);
+        Axios.post('http://13.53.114.16:5000/works',data);
         console.log(data)
         alert("Upload Success")
         navigate('/')

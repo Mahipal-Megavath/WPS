@@ -7,7 +7,7 @@ const Registration = () => {
 
     // useEffect(() => {
       
-    //     axios.post('http://localhost:5000/getdata',{email:"waghmarevikasraj@gmail.com"}).then((res)=>{
+    //     axios.post('http://13.53.114.16:5000/getdata',{email:"waghmarevikasraj@gmail.com"}).then((res)=>{
     //         console.log(res.data)
     //     })
     //     .catch((err)=>{
@@ -30,7 +30,7 @@ const Registration = () => {
             password:data.get("password")
         }
         // console.log(details);
-        let pushData=await axios.post("http://localhost:5000/vikas",details);
+        let pushData=await axios.post("http://13.53.114.16:5000/vikas",details);
         
         if(pushData.data=="success")
             navigate('/login');
