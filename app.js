@@ -14,7 +14,7 @@ const mongodb=require('mongodb');
 
 
 
-app.use(cors({ origin: '*', credentials: true }));
+app.use(cors({ origin: ['http://13.53.114.16:3000'], credentials: true }));
 app.use(express.urlencoded())
 app.use(express.json())
 app.use(cors())
