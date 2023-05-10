@@ -9,6 +9,7 @@ export default function Header({isLoggedIn,setLoggedIn}){
 
     const setLogDetails = ()=> {
       localStorage.setItem('isLoggedIn',false);
+      localStorage.clear()
       navigate('/')
     }
     console.log(isLoggedIn)

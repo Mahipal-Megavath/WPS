@@ -100,7 +100,8 @@ server.listen(5000,()=>{
 
 const io=socket(server,{
     cors:{
-        origin:"http://localhost:3000",
+        // origin:"http://localhost:3000",
+        origin : "http://13.53.114.16:3000",
         credentials:true,
     }
 })

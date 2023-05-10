@@ -33,7 +33,7 @@ function App() {
         <Route path='mahipal' element={<Workers  setWork={setWork}/>}/>
         <Route path='/display' element={<Display work={work} />}></Route>
         <Route path='Works/:location' element={<Works/>}/>
-        <Route path='my_works' element={<My_works email={email}/>}/>\
+        <Route path='my_works' element={<My_works/>}/>\
         <Route path='/chat' element={<Chat/>}/>
       </Routes>
     </BrowserRouter>

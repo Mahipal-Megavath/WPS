@@ -3,7 +3,9 @@ import './My_works.css'
 import axios from "axios";
 import { useState ,useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-const My_works =({email})=>{
+const My_works =()=>{
+
+   email = JSON.parse(localStorage.getItem("chat-app-user")).email;
    const [data, setdata] = useState([]);
    const navigate = useNavigate();
    console.log("email" , email);
